@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body{
+        background-color: black;
+        background-image:url(aaa.jpeg);
+        background-repeat:no-repeat;
+        background-position:center;
+        background-attachment: fixed;
+        background-size: 600px;
+    }
+#abc{
+    height:200px;
+    width:200px;
+    background-color: brown;
+    background-image:linear-gradient(to top left, red,yellow,green,violet);
+}
+div{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation-name: rest;
+    animation-duration: 10s;
+}
+@keyframes rest {
+    10% {background-color: blue;}
+    40% {background-color: rgb(255, 0, 217);}
+    80% {background-color: rgb(101, 223, 0);}
+}
+</style>
+</head>
+<body>
+    <h3>Joy Gupta</h3>
+    <div id="abc">Hello World</div>
+    <div>Codingal</div>
+</body>
+</html>
